@@ -15,8 +15,6 @@ title2 h=2 angle=90 ' 'df;
 proc g3d data=hat;
    plot y*x=z / ctop=yellow ctext=white;
 run; run;run;
-asdf1234asf
 
-more changes;
 
-fetch
+/* This line was commited on SLES */
