@@ -1,6 +1,6 @@
 title "MSRP Distribution Chart";
 proc sgplot data=sashelp.cars;
-histogram msrp / fillattrs=(color=red);
+histogram msrp / fillattrs=(color=green);
 density msrp / lineattrs=(color=blue);
 run;
 
